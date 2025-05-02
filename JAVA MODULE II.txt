@@ -1,0 +1,182 @@
+JAVA MODULE II:
+
+
+Variables : 
+	it's a location in a computer's storage, a variable point out to that location
+
+	Syntax:
+		<Datatype> <Variable Name> = <Value> ;
+		     |		   |		|
+		     V		   V		V	
+		    int		 nameof		12
+
+
+Naming Rule:
+	1. Don't start with number
+	2. Don't use space
+	3. Don't use Reserved keywords
+	4. use only a-z, A-Z, Numbers/digits, Doller Sign($), Underscore(_)
+	5. Java is Case Sensitive 
+	
+
+Example : 
+	int ch = 10; -- OK
+	int 1ch = 11; -- Not ok
+----------------------------------------------------------------------------------------
+
+DATA TYPE:
+
+	Primitive Type
+	{ Fundamental }
+		
+		1.Numeric Datatype
+			a) Integer
+				I) byte
+				II) Int
+				III) short
+				IV) long
+
+			b) Floating
+				I)Float
+				II)Double
+
+		2.Character Datatype
+			a)Char
+				[ a-z, A-Z, 0-9, $, @ ] 
+
+		3.Boolean Datatype
+			a)false
+			b)true
+
+
+	Non-Primitive Data Type
+	{ Reference / Derived }
+
+		a) Array
+		b) Class
+		c) String
+		d) etc...
+
+---------------------------------------------------------------------------------------
+
+	Size : 
+		byte : 8bits [ 1 byte ] 	-128 to 127  	-2^7 to 2^7
+		short : 16bits [ 2 byte ] 			-2^15 to 2^15 -1
+		int : 32bits [ 4 bytes ]			-2^31 to 2^31 -1
+		long : 64bts [ 8 bytes ] 			-2^63 to 2^63 -1
+
+		float : 32bits
+		double : 64bits
+
+		char : 16bits [2 bytes ]
+
+
+---------------------------------------------------------------------------------------
+
+
+CONSTANT : 
+
+	Permanent Value in a variable
+	To make a variable permanent use 'final' keyword
+
+------------------------------------------------------------------------------------------
+
+Type Casting / Type Conversion
+
+	1.Implicit/widening type conversion
+		
+		Compiler convert one data type to another without the help of Dev / 			programmer. 
+			Example:	
+					char alphabhat=a;
+					int a= alphabhat;
+					{ski value a=65} it changes automatically
+			smaller datatype can be converted into larger datatype.
+			short => char => int => long => float => double
+
+
+	2.explicit / Narrowing Type conversion
+		
+		Here larger datatype into smaller datatype, and also it has to be done by 		programmer.	
+
+		Example: 	
+
+			double valueDouble = 8.73;
+			int ValueInt = (Int)ValueDouble; // the value here shows only 8.
+		if you do this type of conversion it may lose some data.
+
+		 
+-------------------------------------------------------------------------------------------
+
+
+OPERATOR : 
+		10 + 10 
+		|  |  |
+		|  |--|--> OPERATOR
+		|     |
+		|_____|----> OPERANDS
+
+
+
+	1.Arithematic Operator : -
+		
+			-> [ +, -, *, /, % ]
+
+	
+ 	2.PREFIX & POSTFIX : -
+
+			->PREFIX
+				++a, --a;
+				It first increament the value and use it.
+
+
+			->POSTFIX
+				a++, a--;
+				It means it use the value first and then use it;
+
+
+
+
+	
+	3.RELATIONAL OPERATOR : - 
+		
+		It tell us the relation between the two operands
+		[ >, <, <=, >=, ==, != ]
+
+
+	4.ASSIGNMENT OPERATOR :-
+	
+		[ = ]
+
+	5.LOGICAL OPERATOR
+	
+		&& -> AND
+			Both must be true then it return true
+		|| -> OR
+			any of the condition is true then it return true
+		!  -> NOT 
+			it return the opposite state [ !true becomes false ] 
+
+	6. TERNARY OPERATOR :-
+		
+		Condition? expression-1:expression-2;
+		
+		if the condition is true  expression-1 will executed else expression-2
+
+	7. SHIFT OPERATOR :-
+
+		<< - Left shift 
+			Example:	
+				 10<<3 Means 10*2^3
+
+		>> - Right Shift 
+			 Example:	
+				  10>>3 Means 10/2^3
+
+	8. BITWISE OPERATOR :-
+		BITWISE OR [|], BITWISE AND [&], BITWISE NOT[!]
+
+
+
+
+
+		

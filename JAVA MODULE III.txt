@@ -1,0 +1,74 @@
+JAVA MODULE III
+
+	DECISION MAKING AND BRANCHING : 
+		
+		In this we have mainly two thing either it has to be true or false.
+		
+		IF ELSE STATEMENT :
+			
+			int a=19;
+			if(a==19){
+				   statement has to be run. }
+			else {
+				if the condition is not true then this will run.
+					}
+
+		NESTED IF STATEMENT :
+		
+				if(a>10){
+						if(a>20){
+						System.out.println("hello");}
+						else{
+							System.out.println("hello else");
+							}
+					} else{
+						System.out.println("hello2");}
+
+		SWITCH CASE :
+	
+				switch(Choice){
+						case '1': 
+							System.out.println("hello");
+							break;
+						case '2':
+							System.out.println("hello 2");
+							break;
+
+						default:
+							System.out.println("hello stranger");
+							break;
+}
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+LOOP STATEMENT :
+	
+		if you want to repeat a certain task, here we use loop, loop do the task again and again until the condition satisfied.
+
+	FOR LOOP : 
+
+		for ( initialization ; condition ; updation){
+			// STATEMENT }
+
+	WHILE LOOP :
+		
+		while ( Condition )
+			{ // STATEMENT / TASK }
+
+	
+	DO WHILE LOOP :
+		
+		do{
+			STATEMENT / TASK
+
+			}while(Condition);
+
+	BREAK STATEMENT:
+
+		break is used to break a loop 
+
+	CONTINUE STATEMENT : 
+
+		Here if we use continue the statement under the continue is not gonna work so, but it didn't break the loop instead it make the other statement under it not take action and continue the loop 
+
+

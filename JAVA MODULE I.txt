@@ -1,0 +1,61 @@
+Java
+
+
+Download Java SE Development kit 8
+
+	Go to Java oracle webpage > select Java SE 8 > Choose your OS > DOWNLOAD
+
+	Install the exe file > select the file c:/programfile
+	
+	copy Java/bin folder address > Environment Variable > User Variable > create new > 
+	Variable name "Java Path" Value: the folder path
+ 
+Check done Right:
+ 	Command Prompt > "javac" press enter>you can see an entire documentation
+
+Eclipse Installation:
+	Eclipse.org > download it > Install it
+	
+	If you only need Java basic then choose IDE for Java / Else / 
+	to create a full application with internet access Choose "Eclipse IDE for Enterprise 	and web developers"
+
+	Click install > make sure internet is connected
+
+
+The Java Environment : 
+ 
+	consist of 2 things 1.JDK [JAVA Development Toolkit], 2. JRE [Java Runtime 	Environment ]
+
+JDK : it basically provide class, library, files, packages and etc that are necessary for execution of the java program.
+
+java - > interpreter
+javac - > Compiler
+javap - > 0&1 into human code
+java debugger - > NetBeans, visual studio code
+
+Source code -> byte code [it platform independent] -> Machine Code
+JVM main use case is converting Byte code into machine code
+
+
+JAVA Program Structure : -
+
+	Create a java project > click create new project > fill out project name > choose 	JRE version > click Next > Click finish > it will ask to create a module but now 	you don't need.
+
+	Right click on the folder > create a class > fill out the name >enter
+
+
+JAVA PROGRAM STRUCTURE : - 
+
+	1. DOCUMENTATION SECTION
+	2. PACKAGE DECLARATION
+	3. IMPORT STATEMENT
+	4. INTERFACE SECTION
+	5. CLASS DEFINITION
+	6. CLASS VARIABLES & CONSTRUCT
+	7. MAIN METHOD CLASS
+	8. METHODS - DEFINE THEIR BEHAVIOUR
+
+
+CLASS NAME SHOULD START WITH CAPITAL
+METHOD NAME IN SMALL LETTERS
+
